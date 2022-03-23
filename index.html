@@ -26,56 +26,114 @@
   <body>
     <div class="d-flex flex-column bd-highlight mb-3">
      
-          <header
-        class="p-2 bd-highlight border border-dark fixed-top header-container"
-        >
-         <div class="navbar navbar-expand-lg navbar-light fixed-top ">
-        <div class="container-fluid ">
+              <header
+      class="p-2 bd-highlight  fixed-top header-container"
+    >
+      <div class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
           <img
             src="./Asstes/logo-symbol-dark.png"
             class="img-fluid mx-4"
             alt="Flowers in Chania"
             style="height: 50px"
           />
-            
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon bg-danger"></span>
-          </button>
-          
-          <div class="collapse navbar-collapse header-menu   responsive-bar" id="navbarSupportedContent">
-          
-             <ul class="navbar-nav  px-2  ">
-        <li class="px-2 topmenu-item ">
-          <a class="nav-link text-light fw-bold  " aria-current="page" href="#homepage">Home</a>
-        </li>
-        <li class="px-2  topmenu-item">
-          <a class="nav-link text-light fw-bold  " aria-current="page" href="#About">About</a>
-        </li>
-          <li class="px-2 topmenu-item">
-          <a class="nav-link text-light fw-bold  " aria-current="page" href="#Project">Portfolio</a>
-        </li>
-        <li class="px-2 topmenu-item">
-          <a class="nav-link  text-light fw-bold  " aria-current="page" href="#contact">Contact</a>
-          </li>
-            
+          <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1 text-light"></div>
+            <div class="bar2 text-light"></div>
+            <div class="bar3 text-light"></div>
+
+            <ul class="mobile-menu">
+              <li class="px-2 topmenu-item">
+                <a
+                  class="nav-link text-light fw-bold"
+                  aria-current="page"
+                  href="#homepage"
+                  >Home</a
+                >
+              </li>
+              <li class="px-2 topmenu-item">
+                <a
+                  class="nav-link text-light fw-bold"
+                  aria-current="page"
+                  href="#About"
+                  >About</a
+                >
+              </li>
+              <li class="px-2 topmenu-item">
+                <a
+                  class="nav-link text-light fw-bold"
+                  aria-current="page"
+                  href="#Project"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="px-2 topmenu-item">
+                <a
+                  class="nav-link text-light fw-bold"
+                  aria-current="page"
+                  href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
           </div>
-             <button type="" class="contact-btn px-4 py-2  rounded fw-bold mx-5 btn btn-danger">
-                <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank" class="text-white">Contact Me</a>
-              </button>      
+
+          <div
+            class="collapse navbar-collapse header-menu responsive-bar"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav px-2">
+              <li class="px-2 topmenu-item">
+                <a
+                  class="nav-link text-light fw-bold"
+                  aria-current="page"
+                  href="#homepage"
+                  >Home</a
+                >
+              </li>
+              <li class="px-2 topmenu-item">
+                <a
+                  class="nav-link text-light fw-bold"
+                  aria-current="page"
+                  href="#About"
+                  >About</a
+                >
+              </li>
+              <li class="px-2 topmenu-item">
+                <a
+                  class="nav-link text-light fw-bold"
+                  aria-current="page"
+                  href="#Project"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="px-2 topmenu-item">
+                <a
+                  class="nav-link text-light fw-bold"
+                  aria-current="page"
+                  href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <button
+            type=""
+            class="contact-btn px-4 py-2 rounded fw-bold mx-5 btn btn-danger"
+          >
+            <a
+              href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+              target="_blank"
+              class="text-white"
+              >Contact Me</a
+            >
+          </button>
         </div>
       </div>
-
-        </header>
+    </header>
+  
            <main class="main-body">
-          <div class="contanier">
+          <div class="">
             <div class="container-fluid home-page-mobile" id="home">
       
     
@@ -98,7 +156,7 @@
         
       
       <div class="home-page container-fluid" id="homepage">
-        <div class="mt-5 align-items-center justify-content-center d-flex flex-column home-content ">
+        <div class=" align-items-center justify-content-center d-flex flex-column home-content ">
           <div class="container px-5  text-light  ">
               <div class="mb-5" id="home">
                 <h6>welcome to my world</h6>
@@ -147,10 +205,10 @@
               </p>
 
               <nav>
-                <div class="nav" id="nav-tab" role="tablist">
+                <div class="nav " id="nav-tab" role="tablist">
                   <span
                     class="about-text mx-5 active"
-                    id="nav-profile-tab"
+                    id="btn"
                     data-bs-toggle="tab"
                     data-bs-target="#Main-skills"
                     type="button"
@@ -161,7 +219,7 @@
                   >
                   <span
                     class="about-text mx-5"
-                    id="nav-profile-tab"
+                    id="btn1"
                     data-bs-toggle="tab"
                     data-bs-target="#Experience"
                     type="button"
@@ -172,14 +230,14 @@
                   >
                   <span
                     class="about-text mx-5"
-                    id="nav-contact-tab"
+                    id="btn2"
                     data-bs-toggle="tab"
                     data-bs-target="#Education-Certification"
                     type="button"
                     role="tab"
                     aria-controls="Education-Certification"
                     aria-selected="false"
-                    >Education</span
+                    > Education </span
                   >
                 </div>
               </nav>
@@ -476,7 +534,7 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-
+  <script src="./JS/index.js"></script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

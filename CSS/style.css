@@ -166,18 +166,6 @@ h2 {
   color: rgb(173, 173, 173);
 }
 
-.box-card {
-  background-image: url("../Asstes/card-one.jpg");
-  height: 30rem;
-  border: solid;
-}
-.card:hover {
-  background: linear-gradient(
-    180deg,
-    rgba(248, 0, 77, 1),
-    rgba(255, 0, 71, 0.6) 100%
-  );
-}
 .contact-btn {
   background-color: black;
   color: white;
@@ -188,7 +176,8 @@ h2 {
 }
 
 .box {
-  background-image: url("../Asstes/card-one.jpg");
+  background-image: url("../Asstes/vladyslav-bahara-EOva41PiBYg-unsplash.jpg");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 25rem;
   width: 20rem;
@@ -204,6 +193,7 @@ h2 {
     rgba(8, 113, 145, 0.6) 100%
   );
 }
+
 .about-container {
   margin-top: 7rem;
 }
@@ -265,7 +255,15 @@ a {
 .contactme-mobile-view {
   display: none;
 }
-
-/* .contact-text-mobile {
+.project-card {
+  display: block;
+}
+.project-card-mobile {
   display: none;
-} */
+}
+.about-data {
+  display: block;
+}
+.about-data-mobile {
+  display: none;
+}

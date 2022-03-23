@@ -6,7 +6,9 @@ const btn = document.getElementById("btn");
 
 btn.addEventListener("click", function onClick() {
   btn1.style.color = "white";
+  btn1.style.borderBottomColor = "white";
   btn2.style.color = "white";
+  btn2.style.borderBottomColor = "white";
   btn.style.color = "Crimson";
   btn.style.borderBottomColor = "Crimson";
 });

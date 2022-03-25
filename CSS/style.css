@@ -151,6 +151,9 @@ h2 {
   font-family: "Poppins", sans-serif;
   color: rgb(173, 173, 173);
 }
+.about-me-text-mobile {
+  display: none;
+}
 .about-text {
   color: white;
   border-bottom: 1px solid white;
@@ -164,8 +167,11 @@ h2 {
   list-style: none;
   font-family: "Poppins", sans-serif;
   color: white;
+  margin-left: -2rem;
 }
-
+.about-mobile-container {
+  display: none;
+}
 .contact-btn {
   background-color: black;
   color: white;
@@ -263,6 +269,7 @@ a {
 }
 .about-data {
   display: block;
+  margin-left: -2rem;
 }
 .about-data-mobile {
   display: none;

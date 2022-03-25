@@ -36,6 +36,8 @@
   }
   .about-img-container-mobile {
     display: block;
+    width: 100%;
+    height: auto;
   }
   .about-img-container {
     display: none;
@@ -45,6 +47,18 @@
     font-size: 2.5rem;
     font-family: "Poppins", sans-serif;
     color: white;
+  }
+  .about-mobile-container {
+    display: block;
+    margin-left: -2rem;
+  }
+  .about-me-text-mobile {
+    font-family: "Poppins", sans-serif;
+    color: rgb(173, 173, 173);
+    display: block;
+  }
+  .about-me-text {
+    display: none;
   }
   .about-me-heading {
     display: none;
@@ -63,6 +77,8 @@
   }
   .contactme-mobile-view {
     display: block;
+    width: 100%;
+    height: auto;
   }
   .latest-Project-mobile {
     font-size: 1.5rem;
@@ -77,17 +93,18 @@
   }
   .project-card-mobile {
     display: block;
+    margin-top: -6rem;
   }
   .box-mobile {
     background-image: url("../Asstes/vladyslav-bahara-EOva41PiBYg-unsplash.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 18rem;
-    width: 12rem;
+    height: 20rem;
+    width: 20rem;
     border-radius: 4px;
-    margin-top: 4rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   .box-mobile:hover {
     background: linear-gradient(
